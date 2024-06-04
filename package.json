@@ -1,0 +1,20 @@
+{
+  "name": "lit-smarterthanthat",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "tinacms": "npx tinacms dev -c \"astro dev --port 8080\"",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.9.2",
+    "tinacms": "^1.6.4"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.46"
+  }
+}
